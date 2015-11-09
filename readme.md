@@ -1,3 +1,13 @@
+##Settings for OPcache
+opcache.enable=1
+opcache.enable_cli=1
+opcache.memory_consumption=256
+opcache.interned_strings_buffer=16
+opcache.max_accelerated_files=7963
+opcache.validate_timestamps=0
+opcache.revalidate_freq=0
+opcache.fast_shutdown=1
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
